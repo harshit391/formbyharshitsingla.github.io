@@ -1,0 +1,102 @@
+.body{
+    margin-left: 300px;
+    background-image: url("Background.jpg");
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#heading{
+    color: red;
+}
+
+#edu
+{
+    color: rgb(0, 145, 255);
+    text-decoration: underline;
+}
+
+#exp{
+    color: rgb(0, 145, 255);
+    text-decoration: underline;
+}
+
+.educate{
+    margin-right: 30px;
+}
+
+.submitbutton{
+    background-color: rgba(0, 0, 255, 0.286);
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bolder;
+    border: 1px solid blue;
+    color: red;
+    
+}
+
+.resetbutton{
+    background-color: lightblue;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bolder;
+    border: 1px solid rgb(247, 0, 255);
+    color: orange;
+}
+
+#sch{
+    border: 2px solid green;
+    width: 200px;
+    height: 20px;
+}
+
+#from{
+    margin-bottom: 20px;
+    border: 2px solid green;
+}
+
+#to{
+    border: 2px solid green;
+}
+
+#mark{
+    width: 40px;
+    height: 20px;
+    border: 2px solid green;
+}
+
+.experienced{
+    margin-right: 30px;
+}
+
+#comp{
+    border: 2px solid navy;
+    width: 200px;
+    height: 20px;
+}
+
+#fromcomp{
+    margin-bottom: 20px;
+    border: 2px solid navy;
+}
+
+#tocomp{
+    border: 2px solid navy;
+}
+
+#desi{
+    border: 2px solid navy;
+    width: 200px;
+    height: 30px;
+}
+
+#remark{
+    width: 200px;
+    height: 100px;
+    border: 2px solid navy;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.seperate{
+    width: 630px;
+    margin-right: 700px;
+    border: 1px solid black;
+}

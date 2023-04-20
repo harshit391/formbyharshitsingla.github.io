@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="body">
+
+    <h1 id="heading">Job Resume</h1>
+
+    <form>
+
+    <h2 id="edu">Education</h2>
+
+    <label for="sch" class="educate">School: </label>
+    <input name="school" id="sch" required>
+
+    <br><br><br>
+
+    <label for="from" class="educate">From: </label>
+    <input name="Date_From" id="from" type="date" required>
+    <label for="to" class="educate">To</label>
+    <input name="Date_To" id="to" type="date" required>
+
+    <br><br><br>
+
+    <label for="mark" class="educate">Marks: </label>
+    <input name="Marks" id="mark" type="number" max="100" min="33" required>
+    <span>%</span>
+
+    <br><br>
+
+    <br><br><hr class="seperate"><hr class="seperate"><br>
+
+    <h2 id="exp">Experience</h2> 
+
+    <label for="comp" class="experienced">Company: </label>
+    <input name="Comapny" id="comp" required>
+
+    <br><br><br>
+
+    <label for="desi" class="experienced">Designation: </label>
+    <select name="Designation" id="desi" required>
+        <option>Student</option>
+        <option>Data Analyst</option>
+        <option>Data Engineer</option>
+        <option>Data Scientist</option>
+        <option>Educator</option>
+        <option>Product Manager</option>
+        <option>Technical Writer</option>
+        <option>Designer</option>
+        <option>Developer</option>
+        <option>Something Else</option>
+    </select>
+
+    <br><br><br>
+
+    <label for="fromcomp" class="experienced">From: </label>
+    <input name="From" id="fromcomp" type="date" required>
+    <label for="tocomp" class="experienced">To</label>
+    <input name="To" id="tocomp" type="date" required>
+
+    <br><br><br>
+
+    <label for="remark" class="experienced">Feedback: </label>
+    <textarea id="remark"></textarea> 
+
+    <br><br><br>
+
+    <input type="submit" class="submitbutton">
+    <input type="reset" class="resetbutton">
+
+    </form>
+</body>
+</html>

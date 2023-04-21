@@ -100,3 +100,53 @@
     margin-right: 700px;
     border: 1px solid black;
 }
+
+#personal{
+    text-decoration: underline;
+    color: rgb(0, 145, 255);
+}
+
+.nameofyou{
+    margin-right: 15px;
+}
+
+label{
+    font-weight: 600;
+}
+
+#Name{
+    height: 20px;
+    border: 2px solid orange;
+}
+
+#cont{
+    height: 20px;
+    border: 2px solid orange;
+}
+
+#emailin{
+    height: 20px;
+    border: 2px solid orange;
+    width: 250px;
+}
+
+#photou{
+    height: 30px;   
+}
+
+#address{
+    height: 20px;
+    border: 2px solid orange;
+}
+
+#citya
+{
+    height: 20px;
+    border: 2px solid orange;
+}
+
+#pinin{
+    height: 20px;
+    border: 2px solid orange;
+}
+

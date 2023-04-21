@@ -150,3 +150,17 @@ label{
     border: 2px solid orange;
 }
 
+@media (max-width: 768px)
+{
+    .body{
+        background-image: url(Background_mobile.jpg);
+        margin-left: 50px;
+        background-repeat: repeat-y;
+    }
+
+    .seperate{
+        width: 360px;
+        margin-right: 700px;
+        border: 1px solid black;
+    }
+}
